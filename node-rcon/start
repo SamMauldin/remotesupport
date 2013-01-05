@@ -1,0 +1,15 @@
+#!/usr/bin/lua
+print("Starting up...")
+
+home=arg[0]
+home=string.sub(home, 1, -7)
+
+print("Debug: "..arg[0])
+
+print("Debug: "..home)
+
+os.execute("cd "..home.."/lib; ../bin/node main.js")
+
+os.execute("clear")
+
+print("Remote supportagent by Sam closed!")

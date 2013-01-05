@@ -1,0 +1,8 @@
+{
+    "name": "remotetechsupport",
+    "description": "Remotely tech support (Mac only for now!)",
+    "version": "0.1.0",
+    "author": "Sam",
+    "dependencies": {},
+    "devDependencies": {}
+}

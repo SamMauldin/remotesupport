@@ -1,0 +1,19 @@
+<html>
+<body>
+<h3>Hello!</h3>
+<a href="/kill">Kill control panel!</a>
+<a href="/terminal">Terminal</a>
+<a href="/screen.html">View screen</a>
+</br>
+<div id="status">Loading...</div>
+<script src="/js/cookie.js"></script>
+<script>
+ip=getCookie("ip")
+if(ip){
+document.getElementById("status").innerText="Ready"
+}else{
+document.getElementById("status").innerHTML="<a href=\"/setup.html\">Please run autosetup</a>"
+}
+</script>
+</body>
+</html>
