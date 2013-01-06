@@ -4,4 +4,3 @@ cd remotesupport
 git pull
 cd node-rcon/lib
 ../bin/node main.js
-echo "Goodbye!"
