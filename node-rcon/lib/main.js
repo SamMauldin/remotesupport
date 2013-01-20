@@ -30,7 +30,7 @@ res.send("Stopping server!");
 
 app.get("/takescreen", function(req, res){
 screenshot()
-res.redirect("http://"+lip+":51001")
+res.redirect("http://"+lip+":51000/screen.html")
 })
 
 app.get("/terminal", function(req, res){
