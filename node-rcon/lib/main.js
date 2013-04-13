@@ -46,7 +46,7 @@ if(error){
 console.log("Unable to find local ip! Expect errors!")
 }else{
 console.log("Ready!")
-console.log("Your local ip is "+lip)
+console.log("Your local ip is "+lip+":51000")
 }
 console.log("The control password is "+pass)
 console.log("To kill the control panel manually, just quit the app")
