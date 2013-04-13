@@ -1,17 +1,71 @@
-<html>
-<body>
-<h3>Hello!</h3>
-<a href="/kill">Kill control panel!</a>
-<a href="/terminal">Terminal</a>
-<a href="/takescreen">View screen</a>
-</br>
-<div id="status">Ready</div>
-<script src="/js/cookie.js"></script>
-<script>
-ip=getCookie("ip")
-if(!ip){
-document.getElementById("status").innerHTML="<a href=\"/setup.html\">Please run autosetup</a>"
-}
-</script>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Remote Control Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="http://twitter.github.io/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="http://twitter.github.io/bootstrap/assets/ico/favicon.png">
+  <style type="text/css"></style></head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./control.html">Remote Support Panel</a>
+          <div class="nav-collapse collapse" style="height: 0px;">
+            <ul class="nav">
+              <li class="active"><a href="/control.html">Home</a></li>
+              <li><a href="/terminal">Remote Terminal</a></li>
+              <li><a href="/takescreen">Screen View</a></li>
+              <li><a href="/kill">Exit control panel</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+		<p>Hi!</p>
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./control_files/jquery.js"></script>
+    <script src="./control_files/bootstrap-transition.js"></script>
+    <script src="./control_files/bootstrap-alert.js"></script>
+    <script src="./control_files/bootstrap-modal.js"></script>
+    <script src="./control_files/bootstrap-dropdown.js"></script>
+    <script src="./control_files/bootstrap-scrollspy.js"></script>
+    <script src="./control_files/bootstrap-tab.js"></script>
+    <script src="./control_files/bootstrap-tooltip.js"></script>
+    <script src="./control_files/bootstrap-popover.js"></script>
+    <script src="./control_files/bootstrap-button.js"></script>
+    <script src="./control_files/bootstrap-collapse.js"></script>
+    <script src="./control_files/bootstrap-carousel.js"></script>
+    <script src="./control_files/bootstrap-typeahead.js"></script>
+
+  
+
+</body></html>

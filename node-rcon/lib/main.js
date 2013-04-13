@@ -37,10 +37,6 @@ app.get("/terminal", function(req, res){
 res.redirect("http://"+lip+":51001")
 });
 
-app.get("/setup.html", function(req, res){
-res.send("<html><body><script src=\"/js/cookie.js\"></script><script>setCookie(\"ip\",\""+lip+"\" )</script></body></html>");
-});
-
 app.listen(51000)
 
 lanip=require("./lanip")
